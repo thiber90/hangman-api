@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@gmadnov01-db.groupemutuel.ch:33251/GMS_NOVA_D.GROUPEMUTUEL.CH
+    username: BERDOTT
+    password: Tuelmu2024?2
+    driver-class-name: oracle.jdbc.OracleDriver
+
+  jpa:
+    hibernate:
+      ddl-auto: none
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.Oracle12cDialect
+
