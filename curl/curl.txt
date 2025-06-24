@@ -35,4 +35,8 @@ curl -X POST http://localhost:8080/api/games/1/attempts \
 
 curl -X GET http://localhost:8080/api/games/1/attempts
 
-curl -X GET http://localhost:8080/api/attempts/by-game-name?name=Some%20Game
+curl -X GET http://localhost:8080/api/games/attempts?gameName=Some%20Game
+
+
+
+https://hangman-api-production-120c.up.railway.app/api/games
