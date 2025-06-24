@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/your_database_name
-    username: BERDOTT
-    password: Tuelmu2024?2
+    url: jdbc:mysql://junction.proxy.rlwy.net:18286/hangman
+    username: root
+    password: EnMcXdnzyXBXZznnPnoizDzKSkDygXPp
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
