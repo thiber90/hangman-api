@@ -8,12 +8,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
-@Table(name = "GAME", schema = "BERDOTT")
+@Table(name = "GAME")
 public class GameEntity {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "game_seq")
-    @SequenceGenerator(name = "game_seq", sequenceName = "BERDOTT.GAME_SEQ", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Use IDENTITY for MySQL AUTO_INCREMENT
     @Column(name = "IDGA", nullable = false)
     private Long idga;
 
