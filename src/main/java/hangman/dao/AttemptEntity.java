@@ -6,13 +6,12 @@ import java.sql.Timestamp;
 
 
 @Entity
-@Table(name = "ATTEMPT", schema = "BERDOTT")
+@Table(name = "ATTEMPT")
 public class AttemptEntity {
 
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "attempt_seq")
-    @SequenceGenerator(name = "attempt_seq", sequenceName = "BERDOTT.ATTEMPT_SEQ", allocationSize = 1)
+    @GeneratedValue(strategy = GenerationType.IDENTITY) // Use IDENTITY for MySQL AUTO_INCREMENT
     @Column(name = "IDAT", nullable = false)
     private Long idat;
 
