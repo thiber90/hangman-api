@@ -28,9 +28,9 @@ public class HangmanController {
         return ResponseEntity.ok(createdGame);
     }
 
-    @GetMapping("/{id}")
-    public ResponseEntity<GameEntity> getGameById(@PathVariable Long id) {
-        Optional<GameEntity> game = gameService.getGameById(id);
+    @GetMapping("/{name}")
+    public ResponseEntity<GameEntity> getGameByName(@PathVariable String name) {
+        Optional<GameEntity> game = gameService.getGameByName(name);
         return game.map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
     }
 

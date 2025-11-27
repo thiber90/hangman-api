@@ -8,7 +8,7 @@ curl -X POST http://localhost:8080/api/games \
   "dateCre": "2023-10-01T12:00:00"
 }'
 
-curl -X GET http://localhost:8080/api/games/1
+curl -X GET http://localhost:8080/api/games/{name}
 
 curl -X GET http://localhost:8080/api/games
 
