@@ -1,0 +1,9 @@
+C:\Workspace\hangman-api\src\main\java\hangman\dao\AttemptEntity.java
+C:\Workspace\hangman-api\src\main\java\hangman\dao\AttemptRepository.java
+C:\Workspace\hangman-api\src\main\java\hangman\service\HangmanServiceImpl.java
+C:\Workspace\hangman-api\src\main\java\hangman\HangmanApplication.java
+C:\Workspace\hangman-api\src\main\java\hangman\dao\GameEntity.java
+C:\Workspace\hangman-api\src\main\java\hangman\dao\GameRepository.java
+C:\Workspace\hangman-api\src\main\java\hangman\resource\HangmanController.java
+C:\Workspace\hangman-api\src\main\java\hangman\service\HangmanService.java
+C:\Workspace\hangman-api\src\main\java\hangman\WebConfig.java

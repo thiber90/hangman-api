@@ -1,0 +1,10 @@
+hangman\dao\GameRepository.class
+hangman\WebConfig$1.class
+hangman\dao\AttemptRepository.class
+hangman\HangmanApplication.class
+hangman\WebConfig.class
+hangman\dao\AttemptEntity.class
+hangman\resource\HangmanController.class
+hangman\service\HangmanService.class
+hangman\dao\GameEntity.class
+hangman\service\HangmanServiceImpl.class
