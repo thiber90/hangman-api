@@ -18,7 +18,11 @@ public class WebConfig {
                 registry.addMapping("/**")
                         .allowedOrigins(
                                 "http://localhost:9000",
-                                "https://simplegames.up.railway.app"
+                                "https://simplegames.up.railway.app",
+                                "http://simplegames.ch",
+                                "https://simplegames.ch",
+                                "http://www.simplegames.ch",
+                                "https://www.simplegames.ch"
                         )
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
