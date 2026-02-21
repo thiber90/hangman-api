@@ -16,14 +16,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins(
-                                "http://localhost:9000",
-                                "https://simplegames.up.railway.app",
-                                "http://simplegames.ch",
-                                "https://simplegames.ch",
-                                "http://www.simplegames.ch",
-                                "https://www.simplegames.ch"
-                        )
+                        .allowedOrigins("*")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
